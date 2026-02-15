@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Data (raw/processed often huge)
+data/raw/
+data/processed/
+data/splits/*.txt
+*.parquet
+*.jsonl
+
+# Artifacts / models
+artifacts/**/*.bin
+artifacts/**/*.pt
+artifacts/**/*.pth
+artifacts/**/*.joblib
+artifacts/**/*.pkl
+
+# If you decide NOT to use LFS for huge model JSONs:
+# artifacts/**/*.json
+
+# OS
+.DS_Store
