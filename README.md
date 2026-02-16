@@ -1,5 +1,7 @@
 ## aegis-dota2
 
+<img width="2194" height="1258" alt="image" src="https://github.com/user-attachments/assets/572a5502-1b4b-4e5e-89cd-12edabc88ab8" />
+
 A structured, ProAct-style offline decision system for **Dota 2** built from **OpenDota parsed match logs**.
 It turns match timelines into a **value model** (win + Δadv) and **policy proposals** (next item), then runs **generate-and-score** to rank feasible candidate actions.
 
